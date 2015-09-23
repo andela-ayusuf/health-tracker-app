@@ -1,0 +1,23 @@
+{
+  "name": "health-tracker-app",
+  "version": "1.0.0",
+  "description": "An app to track and improve personal health (A User Experience Project)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 8000 -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andela-ayusuf/health-tracker-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-ayusuf/health-tracker-app/issues"
+  },
+  "homepage": "https://github.com/andela-ayusuf/health-tracker-app",
+  "dependencies": {
+    "http-server": "^0.8.4"
+  }
+}
