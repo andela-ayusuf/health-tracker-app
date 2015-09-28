@@ -1,3 +1,5 @@
+a,
+a:hover,
 .undecorated-link:hover {
   text-decoration: none;
 }
@@ -40,6 +42,8 @@
 #index-banner {
   min-height: 632px;
   max-height: 864px;
+  text-align: center;
+  color: #fff;
   position: relative;
   background-color: #272D4E;
 }
@@ -55,8 +59,6 @@
 }
 
 .scrollspy .btn {
-  margin-top: 210px;
-  margin-left: -250px;
   background-color: #99D6FF;
 }
 
@@ -65,18 +67,35 @@
   color: white;
 }
 
-.text_h .question {
+.question {
   font-family: 'Roboto', sans-serif;
-  font-size: 1em;
+  font-size: 4em;
   display: block;
   font-weight: 700;
+  opacity: 0.86;
 }
 
-.text_h .fact {
+.fact {
   font-family: 'Roboto', sans-serif;
-  font-size: 1em;
-  line-height: 0.5;
+  font-size: 3.6em;
+  line-height: 1.2;
   font-weight: 100;
+}
+
+.yellow-text.question {
+  font-size: 2.6em;
+}
+
+.yellow-text {
+  color: #fbc02d!important;
+}
+
+.yellow.darken-2 {
+  background-color: #fbc02d!important;
+}
+
+.dark-grey-text {
+  color: #121212;
 }
 
 .text_b {
