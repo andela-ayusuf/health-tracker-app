@@ -6,9 +6,8 @@ angular.module('core').directive('load', function() {
     link: function(scope, elm, attrs) {
       $(document).ready(function() {
         $('select').material_select();
+        $('.parallax').parallax();
       });
-
-      $('.parallax').parallax();
     }
   };
 });
