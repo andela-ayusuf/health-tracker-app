@@ -4,11 +4,6 @@ a:hover,
   text-decoration: none;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-}
-
 [ng\:cloak],
 [ng-cloak],
 [data-ng-cloak],
@@ -38,60 +33,12 @@ body {
   padding: 0 15px;
 }
 
-#intro,
-#work,
-#team {
-  padding-top: 4rem;
-}
-
-#index-banner {
-  min-height: 632px;
-  max-height: 864px;
-  text-align: center;
-  color: #fff;
-  position: relative;
-  background-color: #272D4E;
-}
-
-.parallax-container {
-  height: 150px;
-}
-
-#intro {
-  min-height: 482px;
-  position: relative;
-}
-
-.scrollspy .btn {
-  background-color: #99D6FF;
-}
-
-.text_h {
-  padding: 10% 0;
-  color: white;
-}
-
 .question {
   font-family: 'Oswald', serif;
   font-size: 4em;
   display: block;
   font-weight: 700;
   opacity: 0.86;
-}
-
-.card .card-image .card-title {
-  width: 100%;
-  text-transform: uppercase;
-  font-size: 1.2em;
-  font-weight: 100;
-  background-color: rgba(1, 1, 1, .6);
-  text-align: center;
-  line-height: 1;
-  padding: 10px;
-}
-
-.container-fluid {
-  max-width: 1200px;
 }
 
 .fact {
@@ -112,10 +59,6 @@ body {
   color: #fbc02d!important;
 }
 
-.food-item {
-  min-height: 220px;
-}
-
 .yellow.darken-2 {
   background-color: #fbc02d!important;
 }
@@ -124,55 +67,16 @@ body {
   color: #121212;
 }
 
-.text_b {
-  color: #99D6FF;
-  font-size: 3.5em;
+.text_h * {
+  margin: 25px 0px;
 }
 
-.card-content a {
-  color: #2196F3;
+.btn-huge {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.card-content a:hover {
-  color: #2196F3;
-}
-
-#team {
-  background: rgb(247, 247, 247);
-}
-
-@media only screen and (max-width: 480px) {
-  .text_h {
-    padding: 4% 0;
-    font-size: 5em;
-    font-weight: 100;
-    color: white;
-  }
-}
-
-.card-avatar .waves-effect {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.card-avatar img {
-  height: 100px;
-  width: 100px;
-  border-radius: 75px;
-}
-
-.card-avatar .card-content {
-  text-align: center;
-}
-
-.card .card-content p {
-  margin: 15px 0px;
-}
-
-.card-avatar .card-content i {
-  font-size: 1.5rem;
-}
-
-.card-avatar .card-content .card-title {
-  line-height: 30px !important;
+.food-item {
+  min-height: 300px;
+  text-transform: uppercase;
 }
