@@ -12,14 +12,52 @@
     </header>
   </div>
 
-  <div class="section container" id="team" name="team">
-    <div class="row white centered">
-      <h2 class="fact center text-center">What did you eat for breakfast?</h2>
-      <div class="container-fluid">
-        <div class="row food-lists">
-          <div ng-repeat="item in meals.breakfast" class="col-lg-3 col-md-3 food-item" on-render>
-            <img class="img img-circle" ng-src="modules/core/img/meals/{[{item.image}]}" alt="{[{item.image}]}" height="200px" width="200px">
-            <h4>{[{item.name}]}</h4>
+  <div class="section container" slider>
+    <div id="meal-slider" class="owl-carousel">
+      <div class="item white centered">
+        <h2 class="fact center text-center">What did you eat for breakfast?</h2>
+        <div class="container-fluid">
+          <div class="row food-lists">
+            <div ng-repeat="item in meals.breakfast" class="col-lg-3 col-md-3 food-item">
+              <div class="img-wrapper">
+                <div class="overlay"></div>
+                <i class="fa fa-check img-select"></i>
+                <img class="img img-circle" ng-src="modules/core/img/meals/{[{item.image}]}" alt="{[{item.image}]}" height="200px" width="200px">
+              </div>
+              <h4>{[{item.name}]}</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item white centered">
+        <h2 class="fact center text-center">What did you eat for lunch?</h2>
+        <div class="container-fluid">
+          <div class="row food-lists">
+            <div ng-repeat="item in meals.breakfast" class="col-lg-3 col-md-3 food-item">
+              <div class="img-wrapper">
+                <div class="overlay"></div>
+                <i class="fa fa-check img-select"></i>
+                <img class="img img-circle" ng-src="modules/core/img/meals/{[{item.image}]}" alt="{[{item.image}]}" height="200px" width="200px">
+              </div>
+              <h4>{[{item.name}]}</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item white centered">
+        <h2 class="fact center text-center">What did you eat for dinner?</h2>
+        <div class="container-fluid">
+          <div class="row food-lists">
+            <div ng-repeat="item in meals.breakfast" class="col-lg-3 col-md-3 food-item">
+              <div class="img-wrapper">
+                <div class="overlay"></div>
+                <i class="fa fa-check img-select"></i>
+                <img class="img img-circle" ng-src="modules/core/img/meals/{[{item.image}]}" alt="{[{item.image}]}" height="200px" width="200px">
+              </div>
+              <h4>{[{item.name}]}</h4>
+            </div>
           </div>
         </div>
       </div>

@@ -14,7 +14,10 @@ module.exports = {
 		lib: {
 			css: [
 				'public/lib/bootstrap/dist/css/bootstrap.css',
-				'public/lib/bootstrap/dist/css/bootstrap-theme.css'
+				'public/lib/fontawesome/css/font-awesome.css',
+				'public/lib/bootstrap/dist/css/bootstrap-theme.css',
+				'public/lib/owlcarousel/owl-carousel/owl.carousel.css',
+				'public/lib/owlcarousel/owl-carousel/owl.theme.css'
 			],
 			js: [
 				'public/lib/jquery/dist/jquery.js',
@@ -24,8 +27,7 @@ module.exports = {
 				'public/lib/angular-ui-router/release/angular-ui-router.js',
 				'public/lib/angular-ui-utils/ui-utils.js',
 				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
-				'public/lib/materialize/dist/js/materialize.js',
-				'public/lib/hoverjs/js/jquery.slickhover.js'
+				'public/lib/owlcarousel/owl-carousel/owl.carousel.js'
 			]
 		},
 		css: [

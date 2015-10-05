@@ -77,6 +77,73 @@ a:hover,
 }
 
 .food-item {
-  min-height: 300px;
+  min-height: 270px;
   text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.img-wrapper {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.img-wrapper,
+.img-wrapper * {
+  transition: all 5s ease;
+}
+
+.overlay {
+  position: absolute;
+  transition: all 5s ease;
+  width: 100%;
+  display: none;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #272D4E;
+  opacity: 0.5;
+}
+
+.img-select {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: #FFFF24;
+  font-size: 60px;
+  display: none;
+  position: absolute;
+  top: 32%;
+  left: 36%;
+}
+
+.img-wrapper:hover .overlay {
+  display: block;
+}
+
+.img-wrapper:hover .img-select {
+  display: block;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+  color: inherit;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  background: transparent;
+  filter: Alpha(Opacity=100);
+  opacity: 1;
+}
+
+i.btn.btn-primary.btn-large {
+  font-size: 1.4em;
+  font-style: normal;
+  font-weight: bold;
+  padding: 8px 30px;
+}
+
+.owl-pagination {
+  display: none;
 }

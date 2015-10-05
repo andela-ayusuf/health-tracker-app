@@ -1,21 +1,26 @@
 'use strict';
 
-angular.module('core').directive('onRender', function($timeout) {
+angular.module('core').directive('slider', function($timeout) {
   return {
     restrict: 'A',
     link: function(scope, element, attr) {
-      console.log('asgdgags');
-      if (scope.$last === true) {
+      if (true) {
         $timeout(function() {
-          console.log($(".food-item img"));
-          // $(".food-item img").slickhover({
-          //   icon: "/modules/core/img/check.png",
-          //   color: "transparent",
-          //   speed: 800,
-          //   animateIn: true
-          // });
+          $(function() {
+            $("#meal-slider").owlCarousel({
+              navigation: true,
+              navigationText: [
+                '<i class="btn btn-primary btn-large">Next</i>',
+                '<i class="btn btn-primary btn-large">Previous</i>'
+              ],
+              slideSpeed: 300,
+              singleItem: true,
+              autoPlay: false,
+              autoHeight: true
+            });
+          });
         });
       }
     }
-  }
+  };
 });
